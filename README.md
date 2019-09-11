@@ -3,8 +3,6 @@
 ### Index
 * [Tema 1. Introducció](docs/1.Introduccio.md)
 
-* [Preparàcio de l'entorn](docs/Preparacio_entorn.md)
-
 * [Tema 2. Característiques bàsiques llenguatge PHP](docs/2. Caracteristicas_llenguatge_php.md)
   
   * Activitats

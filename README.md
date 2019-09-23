@@ -16,3 +16,4 @@
 
 * [Tema 4.Exemple d'una aplicació completa amb PHP](docs/4.Exemple_d'aplicació_completa_amb_PHP.md)
 	* [Activitat Completa](docs/4.1.Activitat.md) 	
+* [Solucions Exercisis](http://github.com/igomis/solucions/)

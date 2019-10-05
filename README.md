@@ -10,9 +10,11 @@
     * [Activitat Arrays](docs/2.2.Activitat.md) 
     * [Activitat Funcions](docs/2.3.Activitat.md) 
     * [Activitat Formularis](docs/2.4.Activitat.md)
+    * [Activitat Recuperació](docs/2.5.Activitat.md)
 
 * [Tema 3.Desenvolupament d'aplicacions web amb PHP](docs/3.Desenvolupament_d'aplicacions_web_amb_PHP.md)  
 	* [Activitat Objectes](docs/3.1.Activitat.md) 
+	* [Activitat Sessions i Seguretat](docs/3.2.Activitat.md) 
 
 * [Tema 4.Exemple d'una aplicació completa amb PHP](docs/4.Exemple_d'aplicació_completa_amb_PHP.md)
 	* [Activitat Completa](docs/4.1.Activitat.md) 	

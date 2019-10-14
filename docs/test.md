@@ -1,10 +1,9 @@
-```php
 -- phpMyAdmin SQL Dump
 -- version 4.6.6deb5
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:3306
--- Tiempo de generación: 14-10-2019 a las 14:51:48
+-- Tiempo de generación: 14-10-2019 a las 14:57:26
 -- Versión del servidor: 5.7.27-0ubuntu0.18.04.1
 -- Versión de PHP: 7.3.9-1+ubuntu18.04.1+deb.sury.org+1
 
@@ -20,6 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `test`
 --
+CREATE DATABASE IF NOT EXISTS `test` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
+USE `test`;
 
 -- --------------------------------------------------------
 
@@ -75,4 +76,3 @@ ALTER TABLE `clientes`
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
-```

@@ -54,6 +54,7 @@ INSERT INTO `clientes` (`dni`, `nombre`, `direccion`, `telefono`) VALUES
 
 CREATE TABLE `usuarios` (
   `usuario` varchar(15) NOT NULL,
+  `email` varchar(60) NOT NULL,
   `password` varchar(150) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -61,8 +62,8 @@ CREATE TABLE `usuarios` (
 -- Volcado de datos para la tabla `usuarios`
 --
 
-INSERT INTO `usuarios` (`usuario`, `password`) VALUES
-('igomis', '81dc9bdb52d04dc20036dbd8313ed055');
+INSERT INTO `usuarios` (`usuario`,`email`, `password`) VALUES
+('igomis','igomis@cipfpbatoi.es', '81dc9bdb52d04dc20036dbd8313ed055');
 
 --
 -- Índices para tablas volcadas

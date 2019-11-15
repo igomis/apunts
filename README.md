@@ -20,4 +20,6 @@
 
 * [Tema 4.Exemple d'una aplicació completa amb PHP](docs/4.Exemple_d'aplicació_completa_amb_PHP.md)
 	* [Activitat Completa](docs/4.1.Activitat.md) 	
+* [Tema 5.Aplicacions dinàmiques amb AJAX](docs/5.Aplicacions_web_dinàmiques_amb_AJAX.md)
+	* [Activitat completa Projecte](docs/5.1.Activitat.md) 
 * [Solucions Exercisis](http://github.com/igomis/solucions/)

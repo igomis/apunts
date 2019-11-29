@@ -23,3 +23,8 @@
 * [Tema 5.Aplicacions dinàmiques amb AJAX](docs/5.Aplicacions_web_dinàmiques_amb_AJAX.md)
 	* [Activitat completa Projecte](docs/5.1.Activitat.md) 
 * [Solucions Exercisis](http://github.com/igomis/solucions/)
+
+* [Tema 6 Laravel]()
+	* [Tema 6.1 Rutes i vistes](docs/6.1.Laravel.md)
+		* [Activitat Rutes i vistes](docs/6.1.Activitat.md) 
+	* [Tema 6.2 Controladors](docs/6.2.Laravel.md) 

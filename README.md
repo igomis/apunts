@@ -29,3 +29,7 @@
 		* [Activitat Rutes i vistes](docs/6.1.Activitat.md) 
 	* [Tema 6.2 Controladors](docs/6.2.Laravel.md) 
 		* [Activitat Controladors](docs/6.2.Activitat.md)
+	* [Tema 6.3 Models](docs/6.3.Laravel.md) 
+		* [Activitat Controladors](docs/6.3.Activitat.md)
+	* [Tema 6.4 Dades d'entrada i seguretat](docs/6.4.Laravel.md) 
+		* [Activitat Controladors](docs/6.4.Activitat.md)

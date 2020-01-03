@@ -35,3 +35,4 @@
 		* [Activitat Controladors](docs/6.4.Activitat.md)
 	* [Tema 6.5 Instal.ació de paquets.Relacions](docs/6.5.Laravel.md) 
 		* [Activitat paquets](docs/6.5.Activitat.md)
+	* [Tema 6.6 API amb Laravel/Passport](docs/6.6.Laravel.md) 

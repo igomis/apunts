@@ -11,7 +11,7 @@
 * [Tema 4.Frameworks.Laravel]()
 	* [Tema 4.1 Instal.lació](docs/4.1.Laravel.md)
 	* [Tema 4.2 Introducció](docs/4.2.Laravel.md)
-	* [Tema 4.2 Rutes i vistes](docs/6.1.Laravel.md)
+	* [Tema 4.3 Rutes i vistes](docs/4.3.Laravel.md)
 		
 	* [Tema 4.3 Controladors](docs/6.2.Laravel.md) 
 	* [Tema 4.4 Models](docs/6.3.Laravel.md) 

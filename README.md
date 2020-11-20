@@ -13,7 +13,6 @@
 	* [Tema 4.2 Introducció](docs/4.2.Laravel.md)
 	* [Tema 4.3 Rutes i vistes](docs/4.3.Laravel.md)
 	* [Tema 4.4 Controladors](docs/4.4.Laravel.md) 
-	
 	* [Tema 4.5 Models](docs/6.3.Laravel.md) 
 	* [Tema 4.5 Dades d'entrada i seguretat](docs/6.4.Laravel.md) 
 	* [Tema 4.6 Instal.ació de paquets.Relacions](docs/6.5.Laravel.md) 

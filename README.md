@@ -16,7 +16,7 @@
 	* [Tema 4.5 Models simples](docs/4.5.Laravel.md) 
 	* [Tema 4.6 Models i dades. Seeders, factories i relacions](docs/4.6.Laravel.md)
 	* [Tema 4.7 Formularis i validació de dades](docs/4.7.Laravel.md) 
-	
-	//
 	* [Tema 4.8 Autenticació d'usuaris](docs/4.8.Laravel.md) 
-	* [Tema 4.9 API amb Laravel/Passport](docs/4.9.Laravel.md) //
+
+	
+* [Tema 5 API/REST] (docs/4.9.Laravel.md) //

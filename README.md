@@ -18,5 +18,4 @@
 	* [Tema 4.7 Formularis i validació de dades](docs/4.7.Laravel.md) 
 	* [Tema 4.8 Autenticació d'usuaris](docs/4.8.Laravel.md) 
 
-	
-* [Tema 5 API/REST] (docs/Desenvolupament de serveis REST en Laravel.md) 
+* [Tema 5.API/REST](docs/Desenvolupament de serveis REST en Laravel.md) 

@@ -20,3 +20,4 @@
 	* [Sessió 4.9 Completant el videoclub](docs/4.9.Laravel.md)
 
 * [Tema 5.API/REST](docs/5.1.Laravel.md)
+	* [Documentació API](docs/5.2.Laravel.md)

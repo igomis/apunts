@@ -46,3 +46,16 @@ Faltarà engegar el servei de docker per a poder executar contenidors
 ~~~
 sudo systemctl start docker.service
 ~~~
+
+
+**Posada en marxa d'un repositori en el IDE**
+
+* Es clona el repositori en un directori
+* Es canvia el .env.example a .env
+* Es canvia la variable BASE_DIRECTORY del .env al directori utilitzat
+* Es posa en marxa els contenidors amb **sh start.sh**
+* La primera vola s'executa el composer amb **sh composer.sh**
+
+Nota: Al principi de curs es canviarà el /etc/hosts per afegir la linea
+
+> 127.0.0.1 batoi2021.my

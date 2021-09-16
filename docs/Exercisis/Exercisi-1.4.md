@@ -24,4 +24,13 @@ camps de la taula. La sentència resultant tindrà la següent forma:
 
 **Ajuda**: utilitza les funcions **sprintf**, **implode** i **array_keys**.
 
+### Exercisi 1.H
+
+Modifica la calculadora per a que es puga passar un tercer paràmetre amb l'operació a realitzar.
+
+* l'operació sera un string que pot valdre ('suma','resta','multiplicacio','divisio')
+* si el paràmetre no està o no val una d'estes coses se li recordarà a l'usuari de que el pose.
+* la funció per a calcular el resultat tindrà tres paràmetres, el primer serà una funció.
+* hauràs de fer una funció per operació.
+
 

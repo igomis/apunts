@@ -13,8 +13,10 @@ Escriu un programa(arrays.php) i resol els següents exercicis:
 * Mostra l'array ordenat alfabèticament (funció **asort**)
 * Mostra l'array en l'ordre invers al que es va crear (funció **array_reverse**)
 * Mostra la posició que té el teu nom en l'array (funció **array_search**)
+* Per a imprimir un array crea un funció (**mostrar_array**) que els mostre com una llista.
+
 * Crea un array d'alumnes on cada element siga un altre array que continga el dni, nom i edat de l'alumne.
-* Mostra per pantalla 10 paraules en anglés i la seua traducció. Les paraules han d'estar distribuides en dos columnes. Utilitza l'etiqueta \<table>. Les paraules i les traduccions estaràn en un array associatiu.
 * Crea una taula html en la qual es mostren totes les dades dels alumnes. 
-* Utilitza la funció **array_column** per a obtenir un array indexat que continga únicament els noms dels alumnes i mostra-ho per pantalla.
-* Crea un array amb 10 numeros i utilitza la funció **array_sum** per a obtenir la suma dels 10.
+* *Utilitza la funció **array_column** per a obtenir un array indexat que continga únicament els noms dels alumnes i mostra-ho per pantalla.
+
+* Mostra per pantalla 10 paraules en anglés i la seua traducció. Les paraules han d'estar distribuides en dos columnes.  Les paraules i les traduccions estaràn en un array associatiu.

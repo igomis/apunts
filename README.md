@@ -6,6 +6,8 @@
 
 * [Tema 2. Curs accelerat PHP](docs/2.Caracteristicas_llenguatge_php.md)
 
+* [Tema 3. Formularis i fitxers](docs/3.Formularis.md)
+
 * [Tema 3.Desenvolupament d'aplicacions web amb PHP](docs/4.Desenvolupament_d'aplicacions_web_amb_PHP.md)  
 		
 * [Tema 4.Frameworks.Laravel]()

@@ -45,3 +45,4 @@ Crea el següents programes:
 		* SignPlayer(Player)
 
 * Importa el [fitxer](https://www.bdfutbol.com/res/EjemploPlantillas.xlsx) i carrega el Team de l'Atletic de Madrit i mostra el planter en una pantalla en un estil tarjeta i utilitzant la funció render de la classe Team.
+

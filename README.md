@@ -21,6 +21,7 @@
 * [Exercici 2.2](docs/Exercisis/Exercisi-2.2.md)
 * [Exercici 3.1](docs/Exercisis/Exercisi-3.1.md)
 * [Exercici 3.2](docs/Exercisis/Exercisi-3.2.md)
+* [Exercici 4.1](docs/Exercisis/Exercisi-4.1.md)
   
 
 #### Pràctiques	

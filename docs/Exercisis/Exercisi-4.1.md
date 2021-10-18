@@ -31,12 +31,3 @@ Crea el següents programes:
     * insert(nomtaula,Array camps)
     * update(nomtaula,Array camps,id)
     * deleteById(nomTaula,id)
-
-# Exercici 4.B
-
-* Fes un crud d'esta taula
-    * Una taula per a mostrar tots els elements
-    * Amb un botó per a inserir uno nou
-    * Amb dos icones per linea per tal de modificar i eliminar element de la taula.
-    * Amb una icona per a vore més dades de cada element.
-		

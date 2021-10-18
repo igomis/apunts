@@ -29,6 +29,7 @@
 * [Practica 1.1](docs/Practiques/Bloc 1- Practica 1.1.md)
 * [Practica 1.2](docs/Practiques/Bloc 1- Practica 1.2.md)
 * [Practica 2.1](docs/Practiques/Bloc 1- Practica 2.1.md)
+* [Practica 3.1](docs/Practiques/Bloc 1- Practica 3.1.md)
 		
 ### Antics (CURS 2020-21) 
 		

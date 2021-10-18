@@ -16,12 +16,21 @@ Crea el següents programes:
         * Hobby (smallInt) DEFAULT 0
         * Foto (CHAR(100)) NULLABLE
     *  Donam d'alta 3 alumnes       
-* Crea la classe queryBuilder i fes i prova els següents mètodes:
-    * selectAll(nomTaula)
+* Crea una classe queryBuilder i fes un mètode que torne tots els elements d'una taula
+* Mostra tots els alumnes en una taula
+
+### Exercici 4.B    
+
+* Fes que el formulari creat en un exercici anterior inserte un element en la taula.
+
+### Exercici 4.C
+
+* Crea dos dels següents mètodes en la classe queryBuilder i prova-los:
     * findById(nomTaula,id)
     * selectWhere(nomTaula,nomcamp,value)
     * insert(nomtaula,Array camps)
     * update(nomtaula,Array camps,id)
+    * deleteById(nomTaula,id)
 
 # Exercici 4.B
 

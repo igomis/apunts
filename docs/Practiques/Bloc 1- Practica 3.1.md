@@ -7,9 +7,10 @@ Del repositori anterior heu de fer les següents tasques:
 1. Importa la taula productes en la bd test de la màquina vagrant (es proporciona amb l'enunciat).
 2. Fes que la pàgina principal funcione ara agafant les dades de la BD en compte de l'array de productes.
 3. En la pàgina principal només es voran els primers 8 productes de la BD.
-4. Si l'usuari marca l'enllaç **All Products** es voran tots (més de 8)
-5. Si l'usuari marca l'enllaç **Populars** es voran els que tenen 5 estreles sense importar el número.
-6. Si l'usuari marca l'enllaç **News** es voran els 8 amb el createdAt més recient.
+4. Si hi ha imatge del producte es traurà en el lloc adient, en cas contrari continuarà la imatge actual.
+5. Si l'usuari marca l'enllaç **All Products** es voran tots (més de 8)
+6. Si l'usuari marca l'enllaç **Populars** es voran els que tenen 5 estreles sense importar el número.
+7. Si l'usuari marca l'enllaç **News** es voran els 8 amb el createdAt més recient.
 
 Opcional:
 

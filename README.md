@@ -11,6 +11,8 @@
 * [Tema 4.Classes i Objectes](docs/4.Classes_i_objectes_amb_PHP.md)  
 
 * [Tema 5.Accés a Base de Dades](docs/5.Acces_bases_de_dades.md)
+
+* [Tema 6.Seguretat en PHP](docs/6.Seguretat_en_PHP.md)
 		
 #### Exercicis
 * [Exercici 1.1](docs/Exercisis/Exercisi-1.1.md)

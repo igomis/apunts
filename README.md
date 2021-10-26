@@ -15,24 +15,24 @@
 * [Tema 6.Seguretat en PHP](docs/6.Seguretat_en_PHP.md)
 		
 #### Exercicis
-* [Exercici 1.1](docs/Exercisis/Exercisi-1.1.md)
-* [Exercici 1.2](docs/Exercisis/Exercisi-1.2.md)
-* [Exercici 1.3](docs/Exercisis/Exercisi-1.3.md)
-* [Exercici 1.4](docs/Exercisis/Exercisi-1.4.md)
-* [Exercici 2.1](docs/Exercisis/Exercisi-2.1.md)
-* [Exercici 2.2](docs/Exercisis/Exercisi-2.2.md)
-* [Exercici 3.1](docs/Exercisis/Exercisi-3.1.md)
-* [Exercici 3.2](docs/Exercisis/Exercisi-3.2.md)
-* [Exercici 4.1](docs/Exercisis/Exercisi-4.1.md)
-* [Exercici 6.1](docs/Exercisis/Exercisi-6.1.md)
+* [Exercici 1.2.1](docs/Exercisis/Exercisi-1.1.md)
+* [Exercici 1.2.2](docs/Exercisis/Exercisi-1.2.md)
+* [Exercici 1.2.3](docs/Exercisis/Exercisi-1.3.md)
+* [Exercici 1.2.4](docs/Exercisis/Exercisi-1.4.md)
+* [Exercici 1.3.1](docs/Exercisis/Exercisi-2.1.md)
+* [Exercici 1.3.2](docs/Exercisis/Exercisi-2.2.md)
+* [Exercici 1.4.1](docs/Exercisis/Exercisi-3.1.md)
+* [Exercici 1.4.2](docs/Exercisis/Exercisi-3.2.md)
+* [Exercici 1.5.1](docs/Exercisis/Exercisi-4.1.md)
+* [Exercici 1.6.1](docs/Exercisis/Exercisi-6.1.md)
   
 
 #### Pràctiques	
 
 * [Practica 1.1](docs/Practiques/Bloc 1- Practica 1.1.md)
 * [Practica 1.2](docs/Practiques/Bloc 1- Practica 1.2.md)
-* [Practica 2.1](docs/Practiques/Bloc 1- Practica 2.1.md)
-* [Practica 3.1](docs/Practiques/Bloc 1- Practica 3.1.md)
+* [Practica 1.3](docs/Practiques/Bloc 1- Practica 2.1.md)
+* [Practica 1.4](docs/Practiques/Bloc 1- Practica 3.1.md)
 		
 ### Antics (CURS 2020-21) 
 		

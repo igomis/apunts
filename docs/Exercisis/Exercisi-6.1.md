@@ -40,42 +40,32 @@ class Ofegat
     public function __construct($paraula)
     {
         $this->paraula = strtoupper($paraula);
-        $this->vocal = 0;
         $this->letters = [];
     }
 
     public function addLetter(String $letter)
     {
         $letter = strtoupper($letter);
-        if (self::isVocal($letter)){
-            if ($this->vocal == 0){
-                $this->vocal = 1;
-                $this->letters[] = $letter;
-            }
-            else {
-                throw new \Exception('Ja has triat més vocals anteriorment');
-            }
-        } else {
-            if (in_array($letter,$this->letters)) throw new \Exception('Ja la has ficada abans');
-            $this->letters[] = $letter;
+        if (in_array($letter,$this->letters)) {
+            throw new \Exception('Ja la has ficada abans');
         }
+        $this->letters[] = $letter;
         return (strpos($this->paraula,$letter)===false)?1:0;
     }
 
     public function render(){
+        $fin = 1;
         for($i=0;$i<strlen($this->paraula);$i++){
             if (in_array($this->paraula[$i],$this->letters)) {
                 echo $this->paraula[$i];
             }
             else {
                 echo "_";
+                $fin = 0;
             }
             echo " ";
         }
-    }
-
-    public static function isVocal($letter){
-        return (in_array($letter,['A','E','I','O','U']));
+        return $fin;
     }
 
 }
@@ -86,15 +76,24 @@ class Ofegat
 use App\Ofegat;
 
 ```php
+use App\Ofegat;
+
 $intendInvalids = 0;
-$ofegat = new Ofegat('Indecible');
+$ofegat = new Ofegat('Imbecil');
 $intendInvalids += $ofegat->addLetter('i');
-$ofegat->render();
+var_dump($intendInvalids,$ofegat->render());
 $intendInvalids += $ofegat->addLetter('b');
-$ofegat->render();
+var_dump($intendInvalids,$ofegat->render());
 $intendInvalids += $ofegat->addLetter('z');
-$ofegat->render();
-dd($intendInvalids);
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('e');
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('m');
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('c');
+var_dump($intendInvalids,$ofegat->render());
+$intendInvalids += $ofegat->addLetter('l');
+var_dump($intendInvalids,$ofegat->render());
 ```
  
 

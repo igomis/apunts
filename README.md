@@ -47,7 +47,7 @@
 	* [Sessió 4.7 Formularis i validació de dades](docs/4.7.Laravel.md) 
 	* [Sessió 4.8 Autenticació d'usuaris](docs/4.8.Laravel.md) 
 	* [Sessió 4.9 Completant el videoclub](docs/4.9.Laravel.md)
-	* [Examen Laravel](Examens/Examen-1.md)
+	* [Examen Laravel](docs/Examens/Examen-1.md)
 
 * [Tema 5.API/REST](docs/5.1.Laravel.md)
 	* [Documentació API](docs/5.2.Laravel.md)

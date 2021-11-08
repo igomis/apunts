@@ -33,7 +33,7 @@
 
 #### Exercisi 2 (Branca v1.2)
 
-Afig una nova [ruta parametritzada](../7.3Laravel_rutes_vistes.md#afegir-paràmetres-a-les-rutes) a **posts/{id}** , de manera que el paràmetre id siga numèric (és a dir, només continga dígits del 0 al 9) i obligatori. Fes que la ruta retorne el missatge "Fitxa del post XXXX", sent XXXX l'id que haja rebut com a paràmetre.
+Afig una nova [ruta parametritzada](../7.3.Laravel_rutes_vistes.md#afegir-paràmetres-a-les-rutes) a **posts/{id}** , de manera que el paràmetre id siga numèric (és a dir, només continga dígits del 0 al 9) i obligatori. Fes que la ruta retorne el missatge "Fitxa del post XXXX", sent XXXX l'id que haja rebut com a paràmetre.
 
 Posa un [nom](#named-routes) a les tres rutes que hi ha definides fins ara: 
 

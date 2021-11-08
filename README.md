@@ -2,6 +2,8 @@
 
 ### Index (CURS 2021-22)
 
+#### BLOC 1
+
 * [Tema 1.Introducció](docs/1.Introduccio.md)
 
 * [Tema 2. Característiques del llenguatge PHP](docs/2.Caracteristicas_llenguatge_php.md)
@@ -26,7 +28,6 @@
 * [Exercici 1.5.1](docs/Exercisis/Exercisi-4.1.md)
 * [Exercici 1.6.1](docs/Exercisis/Exercisi-6.1.md)
   
-
 #### Pràctiques	
 
 * [Practica 1.2](docs/Practiques/Bloc 1- Practica 1.1.md)
@@ -35,19 +36,22 @@
 * [Practica 1.5](docs/Practiques/Bloc 1- Practica 3.1.md)
 * [Practica 1.6](docs/Practiques/Bloc 1- Practica 5.1.md)
 		
-### Antics (CURS 2020-21) 
+#### BLOC 2
 		
-* [Tema 7.Frameworks.Laravel]()
-	* [Sessió 4.1 Instal.lació](docs/4.1.Laravel.md)
-	* [Sessió 4.2 Introducció](docs/4.2.Laravel.md)
-	* [Sessió 4.3 Rutes i vistes](docs/4.3.Laravel.md)
-	* [Sessió 4.4 Controladors](docs/4.4.Laravel.md) 
-	* [Sessió 4.5 Models simples](docs/4.5.Laravel.md) 
-	* [Sessió 4.6 Models i dades. Seeders, factories i relacions](docs/4.6.Laravel.md)
-	* [Sessió 4.7 Formularis i validació de dades](docs/4.7.Laravel.md) 
-	* [Sessió 4.8 Autenticació d'usuaris](docs/4.8.Laravel.md) 
-	* [Sessió 4.9 Completant el videoclub](docs/4.9.Laravel.md)
+* Tema 7.Frameworks.Laravel
+	* [7.1 Instal.lació](docs/7.1.Laravel_instalacio.md)
+	* [7.2 Introducció](docs/7.2.Laravel_introduccio.md)
+	* [7.3 Rutes i vistes](docs/7.3.Laravel_rutes_vistes.md)
+	* [7.4 Controladors](docs/7.4.Laravel_controladors.md) 
+	* [7.5 Models simples](docs/7.5.Laravel_models.md) 
+	* [7.6 Models i dades. Seeders, factories i relacions](docs/7.6.Laravel_dades.md)
+	* [7.7 Formularis i validació de dades](docs/7.7.Laravel_validacio.md) 
+	* [7.8 Autenticació d'usuaris](docs/7.8.Laravel_autenticacio.md) 
+	* [7.9 Completant el videoclub](docs/7.9.Laravel_components.md)
 	* [Examen Laravel](docs/Examens/Examen-1.md)
+
+#### BLOC 3
+
 
 * [Tema 5.API/REST](docs/5.1.Laravel.md)
 	* [Documentació API](docs/5.2.Laravel.md)

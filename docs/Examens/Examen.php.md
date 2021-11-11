@@ -2,7 +2,7 @@
 
 Coses a fer:
 
-1. Borra el directori examen i fes un git del repostori de la manera: **git clone <nom_repositori> examen** estan en el directori code. 
+1. Borra el directori examen i fes un git del repostori de la manera: **git clone nom_repositori examen** estan en el directori code. 
 2. Crea una BD employees i importa el fitxer **employees.sql**. Estableix la connexió amb la BD employees i prepara la web per a poder vore-ho.
 3. En el queryBuilder crea la funció **find(taula,primaryKey,id)** per a buscar en una taula per clau primaria **(0,5p)**
 
@@ -10,12 +10,13 @@ Coses a fer:
 	* getDepartment() 	**(0,5p)**   Nom del departament actual de l'empleat
 	* getTitle()		  	**(0,5p)**  Nom del title actual de l'empleat
 	* isManager()			**(0,5p)** Es manager de un departament o no
-	* Members($departament) **(0,5p)** Array d'objectes employees amb els membres actuals del departament
 	* Managers() **(0,5p)** Array d'objectes employees amb els managers de l'empresa (no managers de departament)
 
 5. Modifica la vista **employees.view.php** per a mostrar un empleat. **(0,5p)**
 
-6. Modificat la vista **menu.view.php** per a mostrar tots els departaments. L'enllaç que al que ha de redirigir en cada departament serà **index.php?dep=claudep** **(0,5p)**. Al polsar en un departament els empleats de le pàgina principal canviaran i es mostraran els de eixe departament. **(0,5p)**
+6. Modificat la vista **menu.view.php** per a mostrar tots els departaments.**(0,5p)** L'enllaç que al que ha de redirigir en cada departament serà **index.php?dep=claudep** **(0,5p)**. Al polsar en un departament els empleats de le pàgina principal canviaran i es mostraran els de eixe departament.
+ Hi ha un metode en Employee::Members(dept) que trau tots els empleats del departament. 
+ **(0,5p)**. Si no hi ha cap departament seleccionat es mostraran els managers.
 
 6. Per a identificar a un usuari s'utilitza el numero d'empleat i el nom. Si no coincidix no es farà res. Si coincidix en el peu eixirà el nom de l'usuari i un botó per a fer logout **(0,75p)**. El logout.php ha de funcionar **(0,25p)**
 

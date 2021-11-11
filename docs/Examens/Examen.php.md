@@ -1,11 +1,11 @@
 ## Bloc 1: Examen 
 
+
 Coses a fer:
 
 1. Borra el directori examen i fes un git del repostori de la manera: **git clone nom_repositori examen** estan en el directori code. 
 2. Crea una BD employees i importa el fitxer **employees.sql**. Estableix la connexió amb la BD employees i prepara la web per a poder vore-ho.
 3. En el queryBuilder crea la funció **find(taula,primaryKey,id)** per a buscar en una taula per clau primaria **(0,5p)**
-
 4. Completa la classe employees amb el mètodes:
 	* getDepartment() 	**(0,5p)**   Nom del departament actual de l'empleat
 	* getTitle()		  	**(0,5p)**  Nom del title actual de l'empleat
@@ -32,5 +32,5 @@ Es mostrarà en el peu de pàgina els vots que ha fet l'usuari: nom,departament,
 	* Es pot modificar un empleat. Si un empleat es canvia de departament, no es donarà de baixa la relació sino que s'afegiran les dades de finalització en un departament i es crearà la relació de l'altre.**(1,5p)**
 	* Es validaran els camps mostrant els errors en el formulari i mantenint els camps originals **(1p)**
 	 
- 	  	 
+ Nota : Si voleu provar si funcionen el 3 i els tres primers mètodes del 4 cal que poseu **./vendor/bin/phpunit tests** en la linea de comandos. 	  	 
 

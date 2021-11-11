@@ -36,7 +36,12 @@
 * [Practica 1.4](docs/Practiques/Bloc 1- Practica 2.1.md)
 * [Practica 1.5](docs/Practiques/Bloc 1- Practica 3.1.md)
 * [Practica 1.6](docs/Practiques/Bloc 1- Practica 5.1.md)
-		
+
+#### Examens 
+
+* [Examen de Prova](docs/Examens/Examen-1.md)		
+
+
 #### BLOC 2
 		
 * Tema 7.Frameworks.Laravel
@@ -49,7 +54,7 @@
 	* [7.7 Formularis i validació de dades](docs/7.7.Laravel_validacio.md) 
 	* [7.8 Autenticació d'usuaris](docs/7.8.Laravel_autenticacio.md) 
 	* [7.9 Completant el videoclub](docs/7.9.Laravel_components.md)
-	* [Examen Laravel](docs/Examens/Examen-1.md)
+	* [Examen Laravel](docs/Examens/Examen.php.md)
 
 #### BLOC 3
 

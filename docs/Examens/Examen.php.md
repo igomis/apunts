@@ -18,13 +18,11 @@ Pots triar una de le següents coses:
 
 7. Els emplats poden votar l'empleat de l'any. Han de votar a un membre del seu departament, a un de fora i a un manager **(1p)** i s'incrementarà el camp votes. Soles pot votar una volta (hi ha un camp vote en la taula employees per a saver si ha votat) **(0.5p)**. Les possibles errades es control·laran per exempcions que rediguiran a un pàgina amb l'error produït i ammb un enllaç per tornar a la pàgina principal. **(1p)**.
 Es mostrarà en el peu de pàgina els vots que ha fet l'usuari: nom,departament,title **(1p)**. Es podran esborrar els vots actuals i tornar a votar **(1p)**.
- 
 8. Els managers tindran un enllaç en el peu (on ara posa vots actuals i que redigirà a una pàgina on hi haura un crud de la taula employees) 
 	* Es mostrarà una taula amb els empleats del seu departament **(0,5p)**
 	* Es pot donar d'alta un empleat **(1p)**
 	* Es pot donar de baixa un empleat. No es borarrà, canviarà la data corresponent. **(0,5p)**
 	* Es pot modificar un empleat. Si un empleat es canvia de departament, no es donarà de baixa la relació sino que s'afegiran les dades de finalització en un departament i es crearà la relació de l'altre.**(1,5p)**
 	* Es validaran els camps mostrant els errors en el formulari i mantenint els camps originals **(1p)**
-	 
  Nota : Si voleu provar si funcionen el 3 i els tres primers mètodes del 4 cal que poseu **./vendor/bin/phpunit tests** en la linea de comandos. 	  	 
 

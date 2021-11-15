@@ -45,6 +45,9 @@
 #### BLOC 2
 		
 * Tema 7.Frameworks.Laravel
+
+    * [Exemple:VideoClub](docs/Exemple/videoClub.md)
+    
 	* [7.1 Instal.lació](docs/7.1.Laravel_instalacio.md)
 	* [7.2 Introducció](docs/7.2.Laravel_introduccio.md)
 	* [7.3 Rutes i vistes](docs/7.3.Laravel_rutes_vistes.md)
@@ -53,8 +56,8 @@
 	* [7.6 Models i dades. Seeders, factories i relacions](docs/7.6.Laravel_dades.md)
 	* [7.7 Formularis i validació de dades](docs/7.7.Laravel_validacio.md) 
 	* [7.8 Autenticació d'usuaris](docs/7.8.Laravel_autenticacio.md) 
-	* [7.9 Completant el videoclub](docs/7.9.Laravel_components.md)
-	* [Examen Laravel](docs/Examens/Examen.php.md)
+	* [7.9 Instal·lació de components](docs/7.9.Laravel_components.md)
+	
 
 #### BLOC 3
 

@@ -36,7 +36,7 @@
 * [Practica 1.4](docs/Practiques/Bloc 1- Practica 2.1.md)
 * [Practica 1.5](docs/Practiques/Bloc 1- Practica 3.1.md)
 * [Practica 1.6](docs/Practiques/Bloc 1- Practica 5.1.md)
-* [Practica Recuperació](docs/Practiques/Bloc%201-%20Recuperacio.md)
+* [Practica Recuperació](docs/Practiques/Bloc 1- Recuperacio.md)
 
 #### Examens 
 

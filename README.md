@@ -46,7 +46,7 @@
 		
 * Tema 7.Frameworks.Laravel
 
-    * [Exemple:VideoClub](docs/Exemple/videoClub.md)
+    * [Exemple:VideoClub](docs/Exemple/VideoClub.md)
     
 	* [7.1 Instal.lació](docs/7.1.Laravel_instalacio.md)
 	* [7.2 Introducció](docs/7.2.Laravel_introduccio.md)

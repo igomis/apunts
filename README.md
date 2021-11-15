@@ -36,10 +36,12 @@
 * [Practica 1.4](docs/Practiques/Bloc 1- Practica 2.1.md)
 * [Practica 1.5](docs/Practiques/Bloc 1- Practica 3.1.md)
 * [Practica 1.6](docs/Practiques/Bloc 1- Practica 5.1.md)
+* [Practica Recuperació](docs/Practiques/Bloc%201-%20Recuperacio.md)
 
 #### Examens 
 
 * [Examen de Prova](docs/Examens/Examen-1.md)		
+* [Examen 2021](docs/Examens/Examen.php.md)
 
 
 #### BLOC 2

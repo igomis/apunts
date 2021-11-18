@@ -7,13 +7,13 @@
 * Baixa el projecte blog del github classroom amb git clone dins del directori code. 
 * Configura-lo en el domini blog.my en la teua màquina real modificant el /etc/hosts.
 
-* En el homestead:
+* En el Homestead.yaml:
 
-	* Configura el ngingx per afegir el domini:
+	* Afegeix un domini:
 
 ```
-	serve blog.my /home/vagrant/code/blog/public
-	sudo service nginx restart
+	- map: blog.my
+      to: /home/vagrant/code/blog/public
 ```
 
 * Configura el laravel 

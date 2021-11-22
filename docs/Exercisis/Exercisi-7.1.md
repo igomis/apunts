@@ -65,7 +65,6 @@ Sobre el projecte blog de la sessió anterior, afegirem aquests canvis:
 
 * Crea un [controlador](../7.4.Laravel_controladors.md#controladors-de-recursos) de recursos (opció -r ) anomenat **PostController** , que ens servirà per a gestionar tota la lògica dels posts del blog.
 * [Assigna automàticament](../7.4.Laravel_controladors.md#unint-totes-les-rutes-dun-controlador) amb el mètode **resource** cada ruta a la seua funció corresponent del controlador, en l'arxiu **routes/web.php** . Limita amb **only** les accions només a les funcions de llistat (index), fitxa (show), creació (create) i edició (edit).
-* Utilitza el [proveïdor de serveis](../7.4.Laravel_controladors.md#reanomenant-les-rutes) **AppServiceProvider** per a "castellanitzar" les rutes de creació i edició, com en l'exemple que hem vist.
 * Canvia de nom les [vistes](../7.4.Laravel_controladors.md#reanomenant-les-vistes) de **llistat** i **fitxa** d'un post a **index.blade.php** i show.blade.php, dins de la seua carpeta posts, i fes que els mètodes corresponents del controlador de posts [renderitzen](#renderitzant-les-vistes) aquestes vistes. 
 * Per als mètodes create i edit , simplement retorna un text pla
 indicant "Nou post" i "Edició de post", per exemple.

@@ -60,7 +60,7 @@
 	* [7.7 Formularis i validació de dades](docs/7.7.Laravel_validacio.md) 
 	* [7.8 Autenticació d'usuaris](docs/7.8.Laravel_autenticacio.md) 
 	* [7.9 Instal·lació de components](docs/7.9.Laravel_components.md)
-	
+	* [7.0 CRUD](docs/7.0.Laravel_crud.md)
 
 #### BLOC 3
 

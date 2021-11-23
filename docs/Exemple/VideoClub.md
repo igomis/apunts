@@ -8,6 +8,8 @@ L'objectiu és realitzar un lloc web per a la gestió interna en un videoclub, e
 
 ### Definició de les rutes
 
+[![](../../img/ull.png)Video](https://youtu.be/tQuMBNMA-kc)
+
 En aquest exercici anem a definir les rutes principals que va a tenir el nostre lloc web. Per a començar simplement indicarem que les rutes retornen una cadena (així podrem comprovar que s'han creat correctament). A continuació s'inclou una taula amb les rutes a definir (totes de tipus  GET) i el text que han de mostrar:
 
 | Ruta | Text a mostrar | 
@@ -247,6 +249,9 @@ class BasicTest extends TestCase
 ![](../../img/ls03.png)
 
 ### Definint Controladors
+
+[![](../../img/ull.png)Video](https://youtu.be/VwNTfrN8XTU)
+
 En aquest primer exercici anem a crear els controladors necessaris per a gestionar la nostra aplicació i a més actualitzarem el fitxer de rutes perquè els utilitze.
 Comencem per afegir els dos controladors que ens van a fer falta: **CatalogController.php** i **HomeController.php**. 
 Per a açò heu d'utilitzar el comando de Artisan que permet crear un controlador buit (sense mètodes).
@@ -487,7 +492,7 @@ De moment no haurem de fer res més, més endavant ho completarem perquè s'empl
 			</div> 
 		</div>
 	@stop
-``` 	
+```	
 	
 **create.blade.php**
 
@@ -620,8 +625,13 @@ class BasicTest extends TestCase
 	}
 ```	
 
+
+
+
 ### Configuració de la base de dades
- 
+
+[![](../../img/ull.png)Video](https://youtu.be/SYAffKndJTI)
+
 En primer lloc anem a configurar correctament la base de dades. Per a açò hem d'actualitzar els fitxers **config/database.php** i **.env** per a indicar que anem a usar una base de dades tipus MySQL cridada "videoclub" juntament amb el nom d'usuari i contrasenya d'accés (**homestead** i **secret**)
 
 A continuació obrim PHPMyAdmin i creem una nova base de dades anomenada videoclub. Per a comprovar que tot s'ha configurat correctament anem a un terminal en la carpeta del nostre projecte i executem el comando que crea la taula de migracions. 
@@ -708,6 +718,8 @@ class CreateMoviesTable extends Migration
 ```
 
 ### Model de dades
+
+[![](../../img/ull.png)Video](https://youtu.be/Y0W5GNNQFXU)
 
 Anem a crear el model de dades associat amb la taula movies. Per a açò usarem el comando apropiat de Artisan per a crear el model anomenat Movie.
 
@@ -881,7 +893,9 @@ El mateix en la vista catalog/show.blade.php, per a generar l'enllaç d'editar p
 	@stop
 ```
 
-### Afegir i editar pel·lícules
+### Afegir i editar pel·lícules
+
+[![](../../img/ull.png)Video](https://youtu.be/eg47wpRMNxw)
 
 En primer lloc anem a afegir les rutes que ens van a fer falta per a arreplegar les dades en enviar els formularis. Per a açò editem el fitxer de rutes i afegim dues rutes (també protegides pel filtre auth):
 
@@ -917,7 +931,7 @@ Nota: de moment en cas d'error no es mostrarà res.
 	});
 ```
 	
-![](../img/ls09.png)
+![](../../img/ls09.png)
 
 ** HomeController **
 
@@ -991,6 +1005,10 @@ Nota: de moment en cas d'error no es mostrarà res.
 	    }
 	}
 ```
+### Validació Formulari
+
+[![](../../img/ull.png)Video](https://youtu.be/iojmY5DbpXU)
+
 
 ### Proves
 
@@ -1007,6 +1025,8 @@ Ara fallen totes les proves en les quals hem d'estar autenticats. Per a corregir
 Fes que totes les proves tornen a funcionar.
 
 ## Instal.lació de paquets
+
+[![](../../img/ull.png)Video](https://youtu.be/IND2inVKTEE)
 
 Els paquets són la manera primària d'afegir funcionalitat a Laravel. Els paquets podrien ser qualsevol cosa d'una manera: des de un gran de treballar amb dates com **Carbon**, o un marc de testatge de BDD sencer com **Behat**.
 
@@ -1158,6 +1178,8 @@ protected $guarded = [];
     
 ### Afegir relació u a molts.
 
+[![](../../img/ull.png)Video](https://youtu.be/4Jm81EV0F0Q)
+
 * Crea un taula, mitjançant una migració(create_genres_table) que es diga genres (generè en anglés) ('id','titulo') 
 
 ```php
@@ -1280,6 +1302,8 @@ public function movies(){
 
 ### Afegir el camp Gènere al formulari.
 
+[![](../../img/ull.png)Video](https://youtu.be/Tn3gV_kHD-g)
+
 Anem a utilitza el component d'Styde:
 
 	{!! Field::select('id_genre') !!}
@@ -1358,6 +1382,10 @@ i la cridariem de la següent forma:
  **Nota: en Laravel, per a poder vore el valor d'una variable i para l'execució del programa s'utilitza la funció dd($variable)** 
 
 
+#### HelperServiceProvider
+
+[![](../../img/ull.png)Video](https://youtu.be/sFvxC6zXFjM)
+
 Però, esta funció ha de poser ser visible en tota la  aplicació. Per tal de aconseguir-ho anem a crear un fitxer on guardar les nostres funcions genèriques.
 
   * Crea una carpeta **Helpers** dins de **app**
@@ -1433,7 +1461,9 @@ I com cada volta que toquen un fitxer de configuració executem
 
 I tot ha de funcionar. Ja podem triar un gènere en cada pel.licula.
 
-## # El component de menu styde.
+### El component de menu styde.
+
+[![](../../img/ull.png)Video](https://youtu.be/_KFSmCnFkqM)
 
 Anem a fer el menu des d'un fitxer de text utilitzan el component de menu del paquet instal.lat
 
@@ -1709,6 +1739,8 @@ index.blade.php
 
 ### Alertes 
 
+[![](../../img/ull.png)Video](https://youtu.be/y-zb8hB2GD4)
+
 El component d'Styde te un sistema de notificacions. Per a fer-lo servir cal possar en la vista on volem que ixquen les notificacions. En el nostre cas serà en la plantilla, després de mostrar el contingut:
 
 master.blade.php
@@ -1744,11 +1776,18 @@ CatalogController.php
 	
 ### ACCÉS (LOGIN) EN UNA APP AMB SOCIALITE
 
+
+[![](../../img/ull.png)Video](https://youtu.be/aNIG2wYKPPA)
+
 Laravel disposa d'un paquet oficial, anomenat Laravel Socialite que ens ofereix una via ràpida i fàcil, per a oferir una forma d'autenticació amb proveïdors de OAuth, suportant de forma oficial a la data, Facebook, Twitter, LinkedIn, Google, GitHub i Bitbucket. Pot ser estès amb facilitat implementant el paquet Socialite Providers
 
 Per fer un sistema d'autenticació per [Facebook](https://castris.com/acceso-login-en-una-app-de-laravel-5-7-con-socialite/)
 
 ### Control de qui lloga la pel.licula.
+
+[![](../../img/ull.png)Video](https://youtu.be/E-wOk2kCVSQ)
+
+
 
 Cada volta que un usuari lloga un pel.licula anem a apuntar-ho en una taula **rents**. 
 

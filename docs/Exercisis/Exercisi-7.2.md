@@ -27,15 +27,15 @@ en la base de dades.
 
 #### Exercisi 2 (Branca v2.2):
 
-Continuem amb el projecte blog anterior. Crea un nou [model](#definició-dun-model-de-dades) anomenat Post per als posts del nostre blog. Ha de quedar  juntament amb el model d'Usuari a la subcarpeta **App\Models** del projecte.
+Continuem amb el projecte blog anterior. Crea un nou [model](../7.5.Laravel_models.md#definició-dun-model-de-dades) anomenat Post per als posts del nostre blog. Ha de quedar  juntament amb el model d'Usuari a la subcarpeta **App\Models** del projecte.
 Després, modifica els mètodes del controlador **PostController** creat en exercisis anteriors, d'aquesta manera:
 
-* El [mètode](#consultar-dades) **index** ha d'obtindre tots els posts de la taula, i mostrar la vista **posts.index** amb aqueix llistat de posts.
+* El [mètode](../7.5.Laravel_models.md#consultar-dades) **index** ha d'obtindre tots els posts de la taula, i mostrar la vista **posts.index** amb aqueix llistat de posts.
 	* La vista posts.index , per part seua, rebrà el llistat de posts i mostrarà els títols de cadascun, i un botó Veure per a mostrar la seua fitxa ( posts.show ).
-	* Has de mostrar el llistat de posts ordenat per títol en ordre ascendent, i [paginat](#paginaciò-de-resultats) de 5 en 5.
-* El [mètode](#mostrar-dades) **show** ha d'obtindre el post que el seu id es passarà com a paràmetre, i mostrar-lo en la vista posts.show .
+	* Has de mostrar el llistat de posts ordenat per títol en ordre ascendent, i [paginat](../7.5.Laravel_models.md#paginaciò-de-resultats) de 5 en 5.
+* El [mètode](../7.5.Laravel_models.md#mostrar-dades) **show** ha d'obtindre el post que el seu id es passarà com a paràmetre, i mostrar-lo en la vista posts.show .
 	* La vista posts.show rebrà l'objecte amb el post a mostrar, i mostrarem el títol,contingut i data de creació del post, amb el format que vulgues.
-* El [mètode](#esborrar-dades) **destroy** eliminarà el post que el seu id rebrà com a paràmetre, i retornarà la vista posts.index amb el llistat actualitzat. Per a provar aquest mètode, recorda que has de definir un formulari en una vista (el pots fer per a cada post mostrat en la vista posts.index ) que envie a la ruta posts.destroy usant un mètode [DELETE](#sobre-lesborrat-des-de-les-vistes), com hem explicat en un exemple anterior.
+* El [mètode](../7.5.Laravel_models.md#esborrar-dades) **destroy** eliminarà el post que el seu id rebrà com a paràmetre, i retornarà la vista posts.index amb el llistat actualitzat. Per a provar aquest mètode, recorda que has de definir un formulari en una vista (el pots fer per a cada post mostrat en la vista posts.index ) que envie a la ruta posts.destroy usant un mètode [DELETE](../7.5.Laravel_models.md#sobre-lesborrat-des-de-les-vistes), com hem explicat en un exemple anterior.
 * Els mètodes **create , edit , store i update** de moment els deixarem sense fer, fins que vegem com gestionar formularis.
  
 * Per a simular la inserció i la modificació, crearem dos mètodes addicionals en el controlador, que usarem de manera temporal:
@@ -51,7 +51,7 @@ X"). Pots emprar la funció **rand** de PHP per a generar aquests números aleat
 
 Sobre el projecte blog de la sessió anterior, afegirem aquests canvis:
 
-* Crea una [relació](#un-a-molts) un a molts entre el model d'Usuari i el model de Post , tots dos ja existents en l'aplicació, de manera que un post és d'un usuari, i un usuari pot tindre molts posts. Hauràs de definir una nova [migració de modificació](4.5.Laravel.md#crear-una-nova-migració) sobre la taula posts que afija un nou camp usuari_id , i establir a partir d'ell la relació.
+* Crea una [relació](../7.6.Laravel_dades.md#un-a-molts) un a molts entre el model d'Usuari i el model de Post , tots dos ja existents en l'aplicació, de manera que un post és d'un usuari, i un usuari pot tindre molts posts. Hauràs de definir una nova [migració de modificació](../7.6.Laravel_dades.md#crear-una-nova-migració) sobre la taula posts que afija un nou camp usuari_id , i establir a partir d'ell la relació.
 * Crea des de phpMyAdmin una sèrie d'usuaris de prova en la taula usuaris, i associa alguns d'ells als posts que hi haja.
 
 * Modifica la vista posts/index.blade.php perquè, al costat del títol de cada post, entre parèntesi, aparega el **login** de l'usuari que el va crear.
@@ -60,8 +60,8 @@ Sobre el projecte blog de la sessió anterior, afegirem aquests canvis:
 
 Continuem amb el projecte blog anterior. Ara afegirem el següent:
 
-* Crea un [seeder](#los-seeds) anomenat **UsuariosSeeder** , amb un factory associat anomenat **UsuarioFactory** (canvia de nom el que ve per defecte **UserFactory** per a aprofitar-ho). Crea amb això 3 usuaris de prova,
-amb logins que siguen únics i d'una sola [paraula](#els-factories) (usa el faker), i passwords també d'una sola paraula, sense encriptar (per a poder-los identificar després, arribat el cas).
+* Crea un [seeder](../7.6.Laravel_dades.md#los-seeds) anomenat **UsuariosSeeder** , amb un factory associat anomenat **UsuarioFactory** (canvia de nom el que ve per defecte **UserFactory** per a aprofitar-ho). Crea amb això 3 usuaris de prova,
+amb logins que siguen únics i d'una sola [paraula](../7.6.Laravel_dades.md#els-factories) (usa el faker), i passwords també d'una sola paraula, sense encriptar (per a poder-los identificar després, arribat el cas).
 * Crea un altre seeder anomenat **PostsSeeder** amb un factory associat anomenat **PostFactory** . En el factory, defineix amb el faker títols aleatoris (frases) i continguts aleatoris (textos llargs). Usa el seeder per a crear 3 posts per a cadascun dels usuaris existents.
 * Utilitza l'opció **php artisan migrate:fresh --seed** per a esborrar tot contingut previ i poblar la base de dades amb aquests nous elements. Comprova després des de la pàgina del llistat de posts, i des de phpmyAdmin que la informació és correcta.
 

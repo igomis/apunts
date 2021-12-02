@@ -34,17 +34,13 @@ Defineix [missatges d'error](../7.7.Laravel_validacio#mostrar-missatges-derror) 
 
 Sobre el projecte blog de la sessió anterior, afegirem aquests canvis:
 
-* Modifica l'arxiu **config/auth.php** perquè el provider acudisca al model correcte d'usuari.
-
 * Modifica el factory d'usuaris perquè els passwords s'encripten amb **bcrypt**. Perquè siga fàcil de recordar,
 fes que cada usuari tinga com a password el seu mateix login encriptat. Executa després
 **php artisan migrate:fresh --seed** per a actualitzar tota la base de dades.
 
-* Crea un formulari de login juntament amb un controlador associat, i les rutes pertinents per a mostrar el formulari o autenticar. Recorda cridar "login" a la ruta que mostra el formulari de login.
+* En el controlador de posts, [protegeix](../7.8.Laravel_autenticacio#protegir-les-rutes-d'accés-restringit) totes les opcions menys les de index i show . 
 
-* En el controlador de posts, protegeix totes les opcions menys les de index i show .
-
-* Afig una opció de Login en el menú de navegació superior, que només estiga visible si l'usuari no s'ha
+* Afig una opció de Login en el menú de navegació superior, que només estiga [visible](../7.8.Laravel_autenticacio#detectar-en-les-vistes-l'usuari-autenticat) si l'usuari no s'ha
 autenticat encara.
 
 * Fes que només es mostren els enllaços i botons de crear, editar o esborrar posts quan l'usuari estiga
@@ -56,8 +52,6 @@ propis posts, però no els dels altres usuaris.
 
 #### Exercisi 5 (Branca v3.5)
 
-Continuem amb el projecte blog anterior. Segueix aquests passos per a definir una autenticació basada en
-rols:
 
 * Crea una nova migració que modifique la taula d'usuaris per a afegir un nou camp anomenat rol,
 de tipus string. Assegura't que la migració siga de modificació, i no de creació de taula. Després,
@@ -66,7 +60,7 @@ executa-la per a crear el nou camp.
 * Fes que algun dels usuaris de la taula tinga un rol de **admin** (edita'l a mà des de phpMyAdmin),
 i la resta seran de tipus editor.
 
-* Crea un nou middleware anomenat **RolCheck** , amb una funció que comprove si l'usuari té el
+* Crea un nou [middleware](../7.8.Laravel_autenticacio#definir-roles.-ús-de-middleware) anomenat **RolCheck** , amb una funció que comprove si l'usuari té el
 rol indicat, com en l'exemple vist abans en les anotacions. Registra-ho adequadament en l'arxiu
 App/Http/Kernel.php , com s'ha explicat.
 

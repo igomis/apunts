@@ -23,9 +23,9 @@ Crea els seeders i el factories necessaris per donar d'alta
 
 ## Pràctica 2
 
-* Crea el models Product,Category, ja que User ja està creada
+* Crea el models Product,Category,Offer ja que User ja està creada
 * Crea les relacions entre els models també ací.
-* Like i Offer no són en si un model sinó una relació molts a molts entre Product i User.
+* Like no és en si un model sinó una relació molts a molts entre Product i User.
 
 ## Pràctica 3
 

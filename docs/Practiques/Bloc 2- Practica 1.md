@@ -4,11 +4,11 @@
 
 Crea les migracions per al BatoiPOP:
 
-**Products (id, name, original_price, discount_price, sale, category, img, user_id)** amb els timestamps
+**Products (id, name, original_price, discount_price, sale, category_id, img, user_id)** amb els timestamps
 
 **Categories (id,name,img)** sense timestaps
 
-**Offers (product_id,user_id,price,accepted)** amb els timestamps
+**Offers (id,product_id,user_id,price,accepted)** amb els timestamps
 
 **Likes (product_id, user_id)** amb els timestamps
 

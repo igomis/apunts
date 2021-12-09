@@ -36,8 +36,28 @@ Crea els seeders i el factories necessaris per donar d'alta
 
 * Els numeros en els seeder son aproximats, no cal que siguen exactes
 * Un usuari aleatori pot ser un numero aleatori de 1 a 500.
-* Dins dels mètodes dels factories es poden utilitzar variables per fer calculs.
+```php
+    'user_id' => $this->faker->numberBetween(1,500)
+```
+* Dins dels mètodes dels factories es poden utilitzar variables per fer calculs, o altres mètodes.
+```php
+ public function definition()
+    {
+        $original_price = $this->faker->randomFloat(2,1,2000);
+        return [
+                    'name' => $this->faker->text(75),
+                    'original_price' => $original_price,
+                    ...
+        ]    
+    }            
+```
 * Per a crear una relació likes entre usuaris i productes es pot utilitzar el mètode [attach](https://laravel.com/docs/8.x/eloquent-relationships#attaching-detaching)
+```php
+Product::factory(250)->create()->each(function ($product){
+
+            $product->Likes()->attach($this->randomArray());
+        });
+```
 * Si poseu una imatge per defecte en cada producte, s'estalvieu un @if en la vista.
 * La vista products/fitxa està per adaptar
 * Podeu gastar un controlador LandingPage per a gestionar les pàgines d'inici no loguejades ja que el HomeController necessita Autorització.

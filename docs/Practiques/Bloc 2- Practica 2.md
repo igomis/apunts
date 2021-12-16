@@ -29,6 +29,26 @@ Encara que no és necessari crear un middleware owner perquè als usuaris tan so
 li han d'eixir els propis productes, estaria bé fer-lo per a que un premiun no puga
 modificar o esborrar (a cegues) un producte que no és seu. 
 
+```php
+public function handle($request, Closure $next,$model)
+    {
+        $Model = 'App\\Models\\'.$model;
+        $id = $request->segments()[1];
+        $registre = $Model::findOrFail($id);
+
+        if ($registre->user_id !== Auth::user()->id) {
+            abort(403, 'Must Be Owner.');
+        }
+
+        return $next($request);
+    }
+```
+i per assignar-lo a una ruta, per exemple:
+
+```php
+Route::resource('products', ProductController::class)->except(['index','create','store'])->middleware(['auth','owner:Post']);
+```
+
 ## Pràctica 6 
 
 Un usuari normal:

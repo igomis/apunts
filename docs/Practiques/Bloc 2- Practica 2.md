@@ -54,9 +54,18 @@ Route::resource('products', ProductController::class)->except(['index','create',
 Un usuari normal:
 
     * Podrà llançar ofertes per a un o varios productes.
-    * Podem possar un botó que al polsar-lo ens rediriguisca a una pàgina on podem possar un preu i on vejam tots el productes als que hem llançat ofertes.
+      * Canvia el camp accepted per a que puga ser nullable i que per defecte o siga. Si és null és que encara el propietari no s'ha decidit. 
+      * Afegix un camp sended en la taula ofertes. Esta indicarà si l'oferta ha sigut enviada al propietari del producte.
+      * Quan un usuari polse sobre el botó Nova Oferta. Se li obrirà una pantalla amb totes les ofertes que ha fet, la més nova primera.
+      * També hi haurà, en la pantalla principal, un enllaç a les meues ofertes, per si l'usuari no vol fer de noves.
+      * L'oferta polsada s'haurà afegit amb preu 0 i no enviada. Al acceptar un preu es canviarà l'estat a enviada. 
+      * Les ofertes que han sigut rebutjades, podrà tornar a ser enviades amb un preu superior.
+      * Podem gastar colors per saver si una oferta ha estat acceptada, rebutjada o encara no s'han decidit.
 
 Un usuari premium:
 
     * Podrà vore les ofertes rebudes i processar-les.
+      * Seria bó no gastar el mateix control·lador per a les ofertes que faig i les que hem fam.
+      * Des de la pantala del productes. Polsant sobre un d'ells entre en la pantalla de vore les ofertes sobre eixe produte, adreçades pre preu.
+      * Cal un botó per acceptar-les o rebutjar-les.
 

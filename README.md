@@ -68,5 +68,5 @@
 #### BLOC 3
 
 
-* [Tema 5.API/REST](docs/5.1.Laravel.md)
-	* [Documentació API](docs/5.2.Laravel.md)
+* [Tema 5.API/REST](docs/8.1.Laravel_restfull.md)
+	* [Documentació API](docs/8.2.Laravel_swagger.md)

@@ -30,6 +30,7 @@
 * [Exercisi 2.7.1](docs/Exercisis/Exercisi-7.1.md)
 * [Exercisi 2.7.2](docs/Exercisis/Exercisi-7.2.md)
 * [Exercisi 2.7.3](docs/Exercisis/Exercisi-7.3.md)
+* [Exercisi 3.8.1](docs/Exercisis/Exercisi-8.1.md)
   
 #### Pràctiques	
 

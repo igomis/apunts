@@ -30,7 +30,7 @@
 * [Exercisi 2.7.1](docs/Exercisis/Exercisi-7.1.md)
 * [Exercisi 2.7.2](docs/Exercisis/Exercisi-7.2.md)
 * [Exercisi 2.7.3](docs/Exercisis/Exercisi-7.3.md)
-* [Exercisi 3.8.1](docs/Exercisis/Exercisi-8.1.md)
+
   
 #### Pràctiques	
 
@@ -42,6 +42,7 @@
 * [Practica Recuperació](docs/Practiques/Bloc 1- Recuperacio.md)
 * [Practica 2.1](docs/Practiques/Bloc 2- Practica 1.md)
 * [Practica 2.2](docs/Practiques/Bloc 2- Practica 2.md)
+* [Practica 3.1](docs/Practiques/Bloc 3- Practica 1.md)
 
 #### Examens 
 

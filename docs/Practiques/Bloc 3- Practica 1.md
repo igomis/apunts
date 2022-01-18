@@ -1,6 +1,6 @@
-### Exercisis
+## Bloc 3 - APIRESTFUL
 
-#### Exercisi 1 
+### Practica 1 
 
 Sobre el projecte batoipop , afegirem aquests canvis:
 
@@ -19,10 +19,15 @@ Crea una col·lecció en Postman anomenada BatoiPop que definisca una petició p
 serveis implementats. Comprova que funcionen correctament i exporta la col·lecció a un
 arxiu.
 
-### Exercisi 2
+### Practica 2
 
 Crea una api Resource per a tornar les dades del dos controladors anteriors.
 
-#### Exercisi 3
+### Practica 3
 
-Com a últim exercici d'aquesta sessió, es demana que seguiu els passos indicats per protegir aplicacions basades en serveis REST mitjançant laravel Sanctum.
+Seguiu els passos indicats per protegir aplicacions basades en serveis REST mitjançant laravel Sanctum.
+
+### Practica 4
+
+Documenta els mètodes creats amb swagger. S'ha de fer tant els mètodes com els schemas.
+

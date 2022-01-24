@@ -10,6 +10,8 @@ Ganga Severa:
 
 Base de dades (2,5p)
 
+* Crea la base de dades ganga_severa.
+* Modifica el .env per a poder connectar-te a ella.
 * Configura la base de dades amb migracions, seeder i factories , oblida't d'usar la consola mysql 
 * La taula Ganga ha de contindre les següents columnes:
      * id únic i autoincremental
@@ -31,7 +33,7 @@ Base de dades (2,5p)
 Per exemple: 25-ganga-severa.jpg
 * Les imatges les pots possar al principi automàticament encara que siga la mateixa 
 
-Pàgina principal i vore ganga
+Pàgina principal
 
 * El login ha de redirigir a la pàgina de login de laravel (0,25p)
 * El nom de les categories han de substituir als que hi ha per defecte (0,25p)

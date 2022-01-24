@@ -51,16 +51,16 @@ Pagina de contacte
 
 Pàgina de Ganga 
 
-* Quan punxem en un de les gangues del llistats hem de ser redirigits a aquesta vista on podrem veure tota la informació del taula ganga. Pots maquetar-la com vulgues. El camp disponible no és necessari que el mostres en aquesta vista (0,5p)
+* Quan punxem en un de les gangues del llistats hem de ser redirigits a aquesta vista on podrem veure tota la informació del taula ganga. Pots maquetar-la com vulgues. (0,5p)
 * Cada ganga ha de contindre els seus botons d'editar i esborrar que faça les funcions que toquen quan l'usuari autenticat tinga permisos per a fer-ho. Pots utilitzar icones per a cadascun dels botons. (0,5p)
 
-Pàgina de crear Ganga
-
-* Has de crear un formulari que actualitze la BD (0,5) amb validació en el servidor (0,5p). Tots els camps són requerits.
 
 API 
 
 * Crear un apiGangaController per a que funcionen les rutes bàsiques de la ganga (no cal autenticació) (0,3p cada ruta) 
+* Validació en el servidor (0,5p) tots els camps són requerits.
+* Torna missatge d'error en json (0,5p)
+* Autenticació per a post, put i delete (0,5p)
 
  
   	 
